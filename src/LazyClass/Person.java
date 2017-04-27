@@ -14,6 +14,7 @@ public class Person {
     private String firstname;
     private String lastname;
     private TelephoneNumber telephone;
+    private int telephoneNumber;
     
     Person() {
         telephone = new TelephoneNumber();
@@ -41,6 +42,20 @@ public class Person {
 
     public void setTelephone(TelephoneNumber telephone) {
         this.telephone = telephone;
+    }
+
+    /**
+     * @return the telephoneNumber
+     */
+    public int getTelephoneNumber() {
+        return telephoneNumber;
+    }
+
+    /**
+     * @param telephoneNumber the telephoneNumber to set
+     */
+    public void setTelephoneNumber(int telephoneNumber) {
+        this.telephoneNumber = telephoneNumber;
     }
     
 }
