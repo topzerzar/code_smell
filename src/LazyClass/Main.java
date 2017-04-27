@@ -16,7 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Person person = new Person();
-        person.getTelephone().setAreaCode("+66");
+        person.setAreaCode("+66");
     }
     
 }
