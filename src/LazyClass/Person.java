@@ -12,12 +12,7 @@ package LazyClass;
 public class Person {
     
     private String firstname, lastname, areaCode;
-    private TelephoneNumber telephone;
     private int telephoneNumber;
-    
-    Person() {
-        telephone = new TelephoneNumber();
-    }
 
     public String getFirstname() {
         return firstname;
