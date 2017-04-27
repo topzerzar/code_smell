@@ -30,14 +30,6 @@ public class Person {
         this.lastname = lastname;
     }
 
-    public TelephoneNumber getTelephone() {
-        return telephone;
-    }
-
-    public void setTelephone(TelephoneNumber telephone) {
-        this.telephone = telephone;
-    }
-
     public int getTelephoneNumber() {
         return telephoneNumber;
     }
