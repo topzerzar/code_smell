@@ -11,8 +11,7 @@ package LazyClass;
  */
 public class Person {
     
-    private String firstname;
-    private String lastname;
+    private String firstname, lastname, areaCode;
     private TelephoneNumber telephone;
     private int telephoneNumber;
     
@@ -44,18 +43,20 @@ public class Person {
         this.telephone = telephone;
     }
 
-    /**
-     * @return the telephoneNumber
-     */
     public int getTelephoneNumber() {
         return telephoneNumber;
     }
 
-    /**
-     * @param telephoneNumber the telephoneNumber to set
-     */
     public void setTelephoneNumber(int telephoneNumber) {
         this.telephoneNumber = telephoneNumber;
+    }
+
+    public String getAreaCode() {
+        return areaCode;
+    }
+
+    public void setAreaCode(String areaCode) {
+        this.areaCode = areaCode;
     }
     
 }
