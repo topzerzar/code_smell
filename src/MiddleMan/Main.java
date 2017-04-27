@@ -16,11 +16,15 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        // Before
         Person top = new Person();
         Department softwareEng = new Department(top);
-        
         Person manager = softwareEng.getManager();
         
+        // After
+        Person iam = new Person();
+        Department softwareDesign = new Department(iam);
+        Person managerDesign = iam.getDepartment().getManager();
     }
     
 }
